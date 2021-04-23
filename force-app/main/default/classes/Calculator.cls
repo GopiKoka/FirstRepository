@@ -1,9 +1,11 @@
 public with sharing class Calculator {
-    @AuraEnabled
-    public static string exampleFunction(){
+    public Integer num1{get;set;}
+    public Integer num2{get;set;}
+    public Integer output{get;set;}
+    
+    public string addition(){
         try {
-            String v1 = 'abc';
-            system.debug(v1);
+            output = num1 + num2 ; 
         } catch (Exception e) {
             throw new AuraHandledException(e.getMessage());
         }
