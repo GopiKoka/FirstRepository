@@ -4,7 +4,7 @@
             Enter Number 1 : <apex:inputText value="{!num1}"/><br/>
             Enter Number 2 : <apex:inputText value="{!num2}"/><br/>
             <apex:commandButton value="add" action="{!addition}"/><br/>
-            Output Number : <apex:outputText value="{!num1}"/>
+            Output Number : <apex:outputText value="{!output}"/>
         </apex:pageBlock>
     </apex:form>
 </apex:page>

@@ -8,4 +8,4 @@
     <ui:button press="{!c.addition}" label="Addition"/>
     <br/>
     <ui:outputNumber value="{!v.output}"/>
-</aura:component>	
+</aura:component>
